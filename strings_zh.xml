@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 语言 -->
+<!-- main -->
+<string name="property">资产</string>
+<string name="market">行情</string>
+<string name="me">我的</string>
+<string name="marketTitle">行情</string>
+<string name="marketNews">快讯</string>
+<!-- property -->
+<string name="property_total">总资产（%1$s）≈</string>
+<string name="Property.Backup">立即备份</string>
+<string name="Property.Add">添加资产</string>
+<string name="Property.Add2">+ 添加资产</string>
+<string name="Property.Backup.Tips">请您尽快备份助记词，否则钱包丢失将无法找回！</string>
+<string name="Property.remainLastOne.Tips">至少保留一种资产</string>
+<!-- create password -->
+<string name="Password.Set">设置交易密码</string>
+<string name="Password.Reset">请再次输入交易密码</string>
+<string name="Password.Wrong">密码不一致，请重新输入</string>
+<string name="Validator.passwordTooShort">密码不能小于8个字符</string>
+<string name="Validator.passwordTooSimple">密码过于简单</string>
+<string name="Password.Alert">提示：\n1. 密码至少8位，建议包含字母、数字、特殊字符。\n2. ACoin123 不储存用户交易密码，无法提供找回功能，请妥善保存。</string>
+<string name="Password.title">请输入交易密码</string>
+<string name="password_error">密码错误</string>
+<string name="create_wallet">创建钱包</string>
+<string name="wallet_create_success">钱包创建成功</string>
+<string name="wallet_create_success_tips">我们强烈建议您备份钱包！\n以便在钱包丢失后找回。待定！！！！！！！！</string>
+<string name="Wallet.BackupNow">立即备份</string>
+<string name="Password.Modify">修改密码</string>
+<string name="Password.Modify.Tips">提示：\n1、密码至少8位，建议包含字母，数字，特殊字符。\n2、ACoin123不储存用户交易密码，无法提供找回功能，请妥善保存。</string>
+<string name="Password.Modify.Success">修改密码成功</string>
+<string name="Password.Old">原密码</string>
+<string name="Password.Old.Invalid">原密码错误</string>
+<string name="Password.New">新密码</string>
+<string name="Password.Repeat">重复密码</string>
+<string name="Password.Forget">忘记密码</string>
+<string name="Password.Forget.Title">忘记密码恢复方法</string>
+<string name="Password.Forget.Content">1. 请确认您已备份助记词\n2. 卸载APP，并重新安装\n3. 导入您备份的助记词即可重设密码\n\n下载地址：ACoin123.net</string>
+<!-- mnemonic -->
+<string name="tip">提示</string>
+<string name="next">下一步</string>
+<string name="got_it">知道了</string>
+<string name="confirm">完成</string>
+<string name="mnemonic">助记词</string>
+<string name="backup_wallet">备份钱包</string>
+<string name="mnemonic_write_down">请将助记词按顺序抄写在纸上，保存到安全的地方</string>
+<string name="mnemonic_tips"><![CDATA[助记词是<font color="#d16162">恢复钱包的唯一途径</font>，如丢失将无法找回该账户的所有资产，请务必妥善保存。ACoin123不保存用户助记词，无法提供找回功能。]]></string>
+<string name="mnemonic_backup_alert">为了您的资产安全，请您不要截屏或拍摄，同时检查周围，防止他人偷取你的助记词。</string>
+<string name="mnemonic_validate">验证助记词</string>
+<string name="mnemonic_validate_tips">请按顺序选择您的助记词，以验证您备份的助记词准确无误</string>
+<string name="Mnemonic.Backup.Success">备份成功</string>
+<string name="Mnemonic.Backup.Wrong">验证失败，请检查顺序</string>
+<!-- unkown -->
+<string name="loading_failed_click_retry">加载失败，点击重试</string>
+<string name="Http.neterror">网络异常</string>
+<string name="Upgrade.unsupport">当前版本不支持，请升级到最新版本!</string>
+<string name="Upgrade.isLatestVer">当前为最新版本</string>
+<!-- test -->
+<string name="Dialog.title">title</string>
+<string name="Dialog.content">content</string>
+<string name="Dialog.ok">确认</string>
+<string name="Dialog.cancel">取消</string>
+<string name="Dialog.positiveText">positiveText</string>
+<string name="Dialog.negativeText">negativeText</string>
+<string name="Config.test">测试入口</string>
+<string name="Dialog.btnPool">【BTN矿池】服务由BTN基金会提供，相关服务及责任由该第三方承担。如有问题请咨询该服务方客服。</string>
+<string name="Dialog.btnInsurance">【数字资产保障计划】服务由BTN基金会提供，相关服务及责任由该第三方承担。如有问题请咨询该服务方客服。</string>
+<string name="Dialog.importWallet">仅支持ACoin123助记词导入。如使用其他钱包助记词导入，出现任何问题，ACoin123不承担任何责任。</string>
+<!-- pay -->
+<string name="Receive.copyAddress">复制收款地址</string>
+<string name="Receive.copySuccess">复制成功</string>
+<string name="Receive.title">%1$s收款</string>
+<string name="Send.title">%1$s转账</string>
+<string name="Send.address">收款地址</string>
+<string name="Send.inputAddress">请输入收款地址或扫描二维码</string>
+<string name="Send.amount">数量</string>
+<string name="Send.remainAmount">钱包余额:%1$s</string>
+<string name="Send.all">全部转出</string>
+<string name="Send.fee">矿工费用</string>
+<string name="Send.ok">转账</string>
+<string name="Send.unknowCoin">地址格式不正确</string>
+<string name="Send.success">已转帐，等待网络确认</string>
+<string name="Send.publishSuccess">交易处理</string>
+<!-- Amount to Send: ($1.00) -->
+<string name="Confirmation.amountLabel">发送金额：</string>
+<!-- Network Fee: ($1.00) -->
+<string name="Confirmation.feeLabel">矿工费用：</string>
+<!-- Total Cost: ($5.00) -->
+<string name="Confirmation.totalLabel">费用总计：</string>
+<string name="Confirmation.title">转账详情</string>
+<string name="Send.invalidAddress">地址格式不正确</string>
+<!-- import wallet -->
+<string name="import_wallet">导入钱包</string>
+<string name="root_check_warning">当前手机已被root，安全度极低！请更换非Root手机</string>
+<string name="import_wallet_subtitle">请输入您的助记词</string>
+<string name="import_wallet_input_hint">请按顺序输入您的助记词</string>
+<string name="import_wallet_action">立即导入</string>
+<string name="import_wallet_failed">导入失败，请重试</string>
+<string name="RecoverWallet.invalid">助记词错误，请重新输入</string>
+<string name="AccessibilityLabels.close">知道了</string>
+<string name="use_now">立即使用</string>
+<string name="login_protocol">ACoin123用户服务协议</string>
+<string name="Protocol.prefix">我已阅读并同意</string>
+<!-- 关于我们 -->
+<string name="User.Title">我的</string>
+<string name="User.btnPool">BTN矿池</string>
+<string name="User.btnInsurance">数字资产保障计划</string>
+<string name="User.HotActivity">热门活动</string>
+<string name="User.SystemSetting">系统设置</string>
+<string name="User.JoinChat">加入社群</string>
+<string name="User.AboutUs">关于我们</string>
+<string name="User.AboutContact">联系我们</string>
+<string name="User.ContactInfo">info@ACoin123.net</string>
+<string name="User.AboutDescription">ACoin123旨在打造全球领先的去中心化数字资产支付服务平台，支持跨链存储多种数字资产，用户可轻松、安全地存储和使用。ACoin123是钱包，是区块链行情晴雨表，是惊喜糖果盒子，是有趣DApp集成部落，是数字世界的价值银行。在这里，everything worth！</string>
+<string name="User.version">版本：</string>
+<!-- 加入社群 -->
+<string name="Group.QQ">QQ群</string>
+<string name="Group.Telegram">Telegram(中文群)</string>
+<string name="Group.TelegramOverSea">Telegram(海外群)</string>
+<string name="Group.Wechat">微信群</string>
+<string name="Group.Copied">复制成功</string>
+<!-- 交易记录 -->
+<string name="TransactionRecord.Success">交易成功</string>
+<string name="TransactionRecord.Confirming">确认中</string>
+<string name="TransactionRecord.Receipt">收款</string>
+<string name="TransactionRecord.Transfer">安全转账</string>
+<string name="TransactionDetail.sendAddress">转账地址：</string>
+<string name="TransactionDetail.receiveAddress">收款地址：</string>
+<string name="TransactionDetail.txTime">交易时间：</string>
+<string name="TransactionDetail.Note">备注：</string>
+<string name="TransactionDetail.txHash">交易ID ：</string>
+<string name="TransactionDetail.ReceiveText">收款详情</string>
+<string name="TransactionDetail.transferText">转账详情</string>
+<string name="TransactionRecord.MultiAddresstext">来自多个地址</string>
+<string name="TransactionDetail.MultiAddressTip">来自多个地址，点击交易ID查看详情</string>
+<string name="no_more_data">暂无更多</string>
+<string name="empty_data">暂无交易记录</string>
+<string name="Import.importSuccess">钱包导入成功</string>
+<string name="TransactionDetail.NoteDefault">无备注</string>
+<string name="TransactionDetail.copyHint">复制成功</string>
+<string name="Home.rootTip">手机已被Root，资产有风险，请及时更换手机</string>
+<string name="network_connection_error">当前没有网络</string>
+<string name="TransactionDetail.mineAddress">(我的地址)</string>
+<!-- security -->
+<string name="Security.Scanning">正在安全扫描</string>
+<string name="Security.PowerBy">由360提供安全技术支持</string>
+<!-- /// -->
+<string name="Security.Root">系统安全检测</string>
+<string name="Security.Entity">钱包完整性检测</string>
+<string name="Security.Virus">手机病毒检测</string>
+<string name="Security.NetSafe">网络安全检测</string>
+<string name="Security.PrivateKeySafe">私钥安全检测</string>
+<string name="Security.Certification">数字证书检测</string>
+<string name="Security.Access">访问异常检测</string>
+<string name="Security.Backup">钱包备份检测</string>
+<string name="Security.NetProxy">网络代理检测</string>
+<string name="Security.FakeCoin">跑路币检测</string>
+<!-- /// -->
+<string name="Security.Safe">安全</string>
+<string name="Security.ScanResults">已通过%1$s项安全检测</string>
+<string name="Security.Danger">存在风险</string>
+<string name="Security.Danger.Tips">请谨慎使用钱包</string>
+<string name="Security.Virus.Result">检测出%1$s个病毒</string>
+<string name="Security.Virus.Tip">建议使用360手机卫士进行杀毒，保证数字资产安全</string>
+<string name="Security.Root.Alert">您的手机存在异常状态，安全程度极低！请更换非Root手机使用钱包</string>
+<string name="Security.NetProxy.Result">检测到网络代理设置，交易存在风险，建议关闭网络代理</string>
+<string name="Security.NetProxy.Tip">1. 进入“系统设置”\n2. 进入“无线和网络”\n3. 进入“WLAN”\n4. 选择已连接的网络\n5. 点击或长按打开“修改网络”选项\n6. 在高级选项卡中，清除代理一栏的设置并保存。\n</string>
+<string name="Security.Fix">立即修复</string>
+<string name="Security.FixMethod">修复方式</string>
+<!-- Common -->
+<string name="Common.Quit">退出</string>
+<string name="Common.Done">完成</string>
+<string name="Common.Save">保存</string>
+<string name="Common.Ignore">跳过</string>
+<!-- Explorer -->
+<string name="Explorer">发现</string>
+<string name="Explorer.App">应用</string>
+<string name="CopyrightText">Copyright © 2018 ACoin123 Group Inc.</string>
+<string name="qrcode_invalid_cointype">无效的币种类型</string>
+<string name="signature_valiable">当前APP非官方版本，存在风险，请从官方渠道下载</string>
+<string name="detect_launch_ftom_emulator_tip">请勿使用模拟器运行</string>
+<string name="Settings.switchCurrency">切换货币</string>
+<!-- Market -->
+<string name="Market.Header.ColumnName">名称</string>
+<string name="Market.Header.ColumnLastPrice">最新价</string>
+<string name="Market.Header.ColumnQuoteChange">24h涨幅</string>
+<string name="Select_Country_area_Code">选择国家/地区</string>
+<!-- 活动 -->
+<string name="Huodong.EOSMap">EOS映射</string>
+<string name="Huodong.EOSMap.Prompt">EOS主链上线后，您可直接通过ACoin123查看及使用您的EOS数字资产，无需进行任何操作！</string>
+<string name="Huodong.EOSMap.EthAddress">本钱包地址</string>
+<string name="Huodong.EOSMap.EOSAddress">EOS主链公钥</string>
+<string name="Huodong.EOSMap.EOSAddressHint">将在映射时自动生成</string>
+<string name="Huodong.EOSMap.EOSContractAddress">映射合约地址</string>
+<string name="Huodong.EOSMap.EOSAddressLabel">已映射EOS钱包公钥：</string>
+<string name="Huodong.EOSMap.Aggreement.Name">EOS映射服务条款</string>
+<string name="Huodong.EOSMap.Submit">一键映射</string>
+<string name="Huodong.EOSMap.PaySuccess">映射处理</string>
+<string name="Huodong.EOSMap.Checking">检测中，请稍后...</string>
+<!-- Login -->
+<string name="Login">登录</string>
+<string name="Login.CountryRegion">国家/地区</string>
+<string name="Login.Default.Region.Name">中国</string>
+<string name="Login.Phone.Please">请输入手机号</string>
+<string name="Login.Captcha.Resend">重新发送 (%1$ss)</string>
+<!-- 关于 -->
+<string name="User.serviceAggreement">服务条款</string>
+<string name="User.PrivacyPolicy">隐私条款</string>
+<string name="User.OfficialWebsite">官方网站</string>
+<string name="User.Partner">合作伙伴</string>
+<!-- 安全相关 -->
+<string name="Sec.Loading">正在创建安全网络通道</string>
+<string name="Sec.LoadingSuccess">安全网络通道已建立</string>
+<!-- 添加币种 -->
+<string name="cancel">取消</string>
+<string name="search_hint">搜索币种名称或合约地址</string>
+<string name="search_hint_body"><![CDATA[搜索币种名称或合约地址<br />或者向我们提出<font color="#4262D7">上币申请</font>  ]]></string>
+<string name="search_not_find"><![CDATA[未找到相关币种<br />可以向我们提出<font color="#4262D7">上币申请</font>  ]]></string>
+<!-- ################################################### V1.2.0 begin ################################################### -->
+<!-- Account -->
+<string name="Account.LoginPhoneNum">登录手机号:</string>
+<string name="Account.Reg">注册</string>
+<string name="Account.RegTitle">注册ACoin123通行证</string>
+<string name="Account.ResetPassword">重置密码</string>
+<string name="Account.SetPassword">设置ACoin123通行证密码</string>
+<string name="Account.Upgrade.Desc">尊敬的用户，您好：\n　　即日起“Dabnk登录”功能全面升级为《ACoin123通行证》，请核对您的手机号信息，同时完成ACoin123通行证后续流程。</string>
+<string name="Account.SetPass">设置密码</string>
+<string name="Account.SetNewPass">设置新密码</string>
+<string name="Account.SetPass.Title">设置ACoin123通行证密码：</string>
+<string name="Account.SetPass.Hint1">请输入8-20位字符</string>
+<string name="Account.SetPass.Hint2">请再次输入</string>
+<string name="Account.SetPass.NoSame">密码不一致，请重新输入</string>
+<string name="Account.SetPass.Tips">建议密码由8-20位字母、数字或特殊符号组成。\n为确保您的数字资产安全，请勿向外人泄露您的密码并记牢。</string>
+<string name="Account.Sms">请输入%1$s收到的验证码</string>
+<string name="Account.TS.Check">我已阅读并同意<![CDATA[<font color="#d16162">《ACoin123隐私条款》</font>]]></string>
+<string name="Login.Captcha.Please">请输入短信验证码</string>
+<string name="Login.Captcha.Get">获取短信验证码</string>
+<string name="Account.InputPassword">请输入密码</string>
+<string name="Account.ImageCaptcha.Please">请输入图片验证码</string>
+<string name="Account.hasRegistered">手机号码已注册</string>
+<string name="Account.notSupportReg">手机号状态异常，无法注册</string>
+<string name="Account.LoginPrompt">手机号码已注册，是否直接登录？</string>
+<string name="Account.RegPrompt">手机号码未注册，是否去注册？</string>
+<string name="Account.ForgetPwdRegPrompt">手机号码未注册</string>
+<string name="Account.Register">注册</string>
+<string name="Dialog.relogin">重新登录</string>
+<string name="Dialog.yes">是</string>
+<string name="Dialog.no">否</string>
+<string name="UserInfo.information">个人资料</string>
+<string name="Settings.securityCenter">安全中心</string>
+<string name="Settings.securityCenter.ACoin123Wallet">ACoin123钱包</string>
+<string name="Account.ACoin123passport">ACoin123通行证</string>
+<string name="Settings.securityCenter.changeTradepwd">修改钱包交易密码</string>
+<string name="Settings.securityCenter.changepassportpwd">修改ACoin123通行证密码</string>
+<string name="UserInfo.avatarStr">头像</string>
+<string name="UserInfo.nickName">昵称</string>
+<string name="UserInfo.editName">修改昵称</string>
+<string name="UserInfo.editNametip.empty">请输入昵称</string>
+<string name="UserInfo.sex">性别</string>
+<string name="UserInfo.editSex.male">男</string>
+<string name="UserInfo.editSex.other">其他</string>
+<string name="UserInfo.editSex.famale">女</string>
+<string name="UserInfo.phoneNum">手机号</string>
+<string name="UserInfo.dbid">DBID</string>
+<string name="UserInfo.OK">确认</string>
+<string name="UserInfo.Cancel">取消</string>
+<string name="UserInfo.Finish">完成</string>
+<!-- ################################################### V1.2.0 end ################################################### -->
+</resources>

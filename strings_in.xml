@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 语言 -->
+<!-- main -->
+<string name="property">aset</string>
+<string name="market">kutipan</string>
+<string name="me">milik saya</string>
+<string name="marketTitle">kutipan</string>
+<string name="marketNews">lansiran cepat</string>
+<!-- property -->
+<string name="property_total">total aset(%1$s)≈</string>
+<string name="Property.Backup">cadangkan</string>
+<string name="Property.Add">tambahkan aset</string>
+<string name="Property.Add2">+ tambahkan aset</string>
+<string name="Property.Backup.Tips">Harap anda backup mnemonic sesegera mungkin, jika tidak, dompet tidak akan dipulihkan jika hilang!</string>
+<string name="Property.remainLastOne.Tips">simpan setidaknya satu jenis aset</string>
+<!-- create password -->
+<string name="Password.Set">atur kata sandi transaksi</string>
+<string name="Password.Reset">silakan masukkan kata sandi transaksi lagi</string>
+<string name="Password.Wrong">kata sandi tidak konsisten, silakan masukkan kembali</string>
+<string name="Validator.passwordTooShort">kata sandi tidak boleh kurang dari 8 karakter</string>
+<string name="Validator.passwordTooSimple">kata sandinya terlalu sederhana</string>
+<string name="Password.Alert">tips:\n1.  kata sandi harus setidaknya 8 digit. saran termasuk huruf, angka, dan karakter khusus.\n2. ACoin123 tidak menyimpan kata sandi transaksi pengguna dan tidak dapat memberikan fungsi pemulihan. Tolong simpan dengan benar.</string>
+<string name="Password.title">silakan masukkan kata sandi transaksi</string>
+<string name="password_error">kata sandi kesalahan</string>
+<string name="create_wallet">buat wallet</string>
+<string name="wallet_create_success">buat wallet berhasil</string>
+<string name="wallet_create_success_tips">Kami sangat menyarankan agar Anda mencadangkan dompet Anda!\nSehingga Anda bisa mendapatkannya kembali ketika dompet Anda hilang.待定！！！！！！！！</string>
+<string name="Wallet.BackupNow">cadangkan segera</string>
+<string name="Password.Modify">ubah kata sandi</string>
+<string name="Password.Modify.Tips">tips:\n1、 kata sandi harus setidaknya 8 digit. saran termasuk huruf, angka, dan karakter khusus.\n2、ACoin123 tidak menyimpan kata sandi transaksi pengguna dan tidak dapat memberikan fungsi pemulihan. Tolong simpan dengan benar.</string>
+<string name="Password.Modify.Success">ubah kata sandi berhasil</string>
+<string name="Password.Old">kata sandi asli</string>
+<string name="Password.Old.Invalid">kata sandi asli salah</string>
+<string name="Password.New">kata sandi baru</string>
+<string name="Password.Repeat">ulangan kata sandi baru</string>
+<string name="Password.Forget">lupa kata sandi?</string>
+<string name="Password.Forget.Title">lupa metode pemulihan kata sandi </string>
+<string name="Password.Forget.Content">1. Silakan konfirmasi Anda telah mendukung mnemonik\n2. copot pemasangan APP dan instal ulang\n3. Impor mnemonic cadangan Anda untuk mereset kata sandi Anda\n\nunduh alamat:ACoin123.net</string>
+<!-- mnemonic -->
+<string name="tip">tips</string>
+<string name="next">langkah selanjutnya</string>
+<string name="got_it">sudah tahu</string>
+<string name="confirm">selesai</string>
+<string name="mnemonic">kata bantuan</string>
+<string name="backup_wallet">dompet cadangan</string>
+<string name="mnemonic_write_down">Silakan salin mnemonik agar di atas kertas dan simpan di tempat yang aman</string>
+<string name="mnemonic_tips"><![CDATA[kata bantuan<font color="#d16162">satu-satunya cara untuk mengembalikan dompet Anda</font>,ika Anda kehilangan itu tidak akan dapat mengambil semua aset akun, pastikan untuk menyimpannya dengan benar. ACoin123 tidak menyimpan mnemonik pengguna dan tidak dapat memberikan pengambilan.]]></string>
+<string name="mnemonic_backup_alert">Untuk keamanan aset Anda, jangan mengambil tangkapan layar atau mengambil gambar, dan periksa di sekitar untuk mencegah orang lain mencuri mnemonik Anda.</string>
+<string name="mnemonic_validate">verifikasi kata bantuan</string>
+<string name="mnemonic_validate_tips">Silakan pilih mnemonik Anda untuk memverifikasi bahwa mnemonik cadangan Anda sudah benar</string>
+<string name="Mnemonic.Backup.Success">pencadangan berhasil</string>
+<string name="Mnemonic.Backup.Wrong">verifikasi gagal, periksa urutannya</string>
+<!-- unkown -->
+<string name="loading_failed_click_retry">gagal memuat, klik coba lagi</string>
+<string name="Http.neterror">jaringan tidak normal</string>
+<string name="Upgrade.unsupport">versi saat ini tidak mendukung, harap tingkatkan ke versi terbaru!</string>
+<string name="Upgrade.isLatestVer">saat ini versi terbaru</string>
+<!-- test -->
+<string name="Dialog.title">title</string>
+<string name="Dialog.content">content</string>
+<string name="Dialog.ok">konfirmasi</string>
+<string name="Dialog.cancel">pembatalan</string>
+<string name="Dialog.positiveText">positiveText</string>
+<string name="Dialog.negativeText">negativeText</string>
+<string name="Config.test">tes jalan masuk</string>
+<string name="Dialog.btnPool">layanan[BTN Mine Pool]disediakan oleh BTN Foundation, layanan dan tanggung jawab terkait ditanggung oleh pihak ketiga. Jika Anda memiliki pertanyaan, silakan hubungi layanan pelanggan layanan.</string>
+<string name="Dialog.btnInsurance">Layanan [Rencana Perlindungan Aset Digital] disediakan oleh Yayasan BTN, dan layanan serta tanggung jawab terkait ditanggung oleh pihak ketiga. Jika Anda memiliki pertanyaan, silakan hubungi layanan pelanggan layanan</string>
+<string name="Dialog.importWallet">Hanya didukung impor mnemonic ACoin123 .ACoin123 tidak bertanggung jawab jika ada pertanyaan yang muncul dengan penggunaan mnemonik dompet lainnya.</string>
+<!-- pay -->
+<string name="Receive.copyAddress">salin alamat pembayaran</string>
+<string name="Receive.copySuccess">berhasil disalin</string>
+<string name="Receive.title">%1$sterima uang</string>
+<string name="Send.title">%1$stransfer uang</string>
+<string name="Send.address">alamat terima uang</string>
+<string name="Send.inputAddress">alamat kwitansi</string>
+<string name="Send.amount">kuantitas</string>
+<string name="Send.remainAmount">saldo dompet:%1$s</string>
+<string name="Send.all">semua keluar</string>
+<string name="Send.fee">biaya penambang</string>
+<string name="Send.ok">transfer uang</string>
+<string name="Send.unknowCoin">format alamat salah</string>
+<string name="Send.success">sudah transfer, menunggu konfirmasi jaringan</string>
+<string name="Send.publishSuccess">pemrosesan transaksi</string>
+<!-- Amount to Send: ($1.00) -->
+<string name="Confirmation.amountLabel">Jumlah uang yang dikirim:</string>
+<!-- Network Fee: ($1.00) -->
+<string name="Confirmation.feeLabel">biaya penambang:</string>
+<!-- Total Cost: ($5.00) -->
+<string name="Confirmation.totalLabel">juamlah biaya:</string>
+<string name="Confirmation.title">detail transfer</string>
+<string name="Send.invalidAddress">format alamat salah</string>
+<!-- import wallet -->
+<string name="import_wallet">impor dompet</string>
+<string name="root_check_warning">ponsel saat ini telah di-root, dan keamanannya sangat rendah! Harap ganti ponsel non-Root</string>
+<string name="import_wallet_subtitle">Silakan masukkan mnemonik Anda</string>
+<string name="import_wallet_input_hint">Silakan masukkan mnemonik Anda secara berurutan</string>
+<string name="import_wallet_action">impor segera</string>
+<string name="import_wallet_failed">impor gagal,silakan coba lagi</string>
+<string name="RecoverWallet.invalid">kata bantuan salah,silakan masukkan lagi</string>
+<string name="AccessibilityLabels.close">sudah tahu</string>
+<string name="use_now">dipakai segera</string>
+<string name="login_protocol">syarat penggunaan</string>
+<string name="Protocol.prefix">saya telah membaca dan setuju</string>
+<!-- 关于我们 -->
+<string name="User.Title">milik saya</string>
+<string name="User.btnPool">kolam tambang BTN</string>
+<string name="User.btnInsurance">rencana perlindungan aset digital</string>
+<string name="User.HotActivity">kegiatan populer</string>
+<string name="User.SystemSetting">pengaturan sistem</string>
+<string name="User.JoinChat">bergabunglah dengan komunitas</string>
+<string name="User.AboutUs">tentang kami</string>
+<string name="User.AboutContact">hubungi kami</string>
+<string name="User.ContactInfo">info@ACoin123.net</string>
+<string name="User.AboutDescription">ACoin123 bertujuan untuk membangun platform layanan pembayaran aset digital terdesentralisasi terdepan di dunia yang mendukung penyimpanan lintas-rantai berbagai aset digital yang dapat dengan mudah dan aman disimpan dan digunakan pengguna. ACoin123 adalah dompet, barometer pasar blockchain, kotak permen kejutan, suku integrasi DApp yang menarik, dan bank nilai dunia digital.di sini,everything worth！</string>
+<string name="User.version">versi:</string>
+<!-- 加入社群 -->
+<string name="Group.QQ">QQ kelompok</string>
+<string name="Group.Telegram">Telegram(中文群)</string>
+<string name="Group.TelegramOverSea">Telegram(Internasional)</string>
+<string name="Group.Wechat">grup wechat</string>
+<string name="Group.Copied">disalin berhasil</string>
+<!-- 交易记录 -->
+<string name="TransactionRecord.Success">transaksi berhasil</string>
+<string name="TransactionRecord.Confirming">sedang konfirmasi</string>
+<string name="TransactionRecord.Receipt">terima uang</string>
+<string name="TransactionRecord.Transfer">transfer uang aman</string>
+<string name="TransactionDetail.sendAddress">alamat transfer:</string>
+<string name="TransactionDetail.receiveAddress">alamat tanda terima:</string>
+<string name="TransactionDetail.txTime">waktu perdagangan:</string>
+<string name="TransactionDetail.Note">catatan:</string>
+<string name="TransactionDetail.txHash">ID Transaksi:</string>
+<string name="TransactionDetail.ReceiveText">detail tanda terima</string>
+<string name="TransactionDetail.transferText">detail transfer</string>
+<string name="TransactionRecord.MultiAddresstext">dari beberapa alamat</string>
+<string name="TransactionDetail.MultiAddressTip">dari beberapa alamat, klik ID Transaksi untuk melihat detail</string>
+<string name="no_more_data">tidak ada lagi</string>
+<string name="empty_data">tidak ada riwayat transaksi</string>
+<string name="Import.importSuccess">dompet berhasil diimpor</string>
+<string name="TransactionDetail.NoteDefault">tidak ada catatan</string>
+<string name="TransactionDetail.copyHint">disalin berhasil</string>
+<string name="Home.rootTip">ponsel sudah Root dan aset beresiko, silakan ganti telepon segera</string>
+<string name="network_connection_error">tidak ada jaringan saat ini</string>
+<string name="TransactionDetail.mineAddress">(alamat saya)</string>
+<!-- security -->
+<string name="Security.Scanning">pemindaian</string>
+<string name="Security.PowerBy">memberikan dukungan keamanan teknis dengan 360</string>
+<!-- /// -->
+<string name="Security.Root">pengujian keamanan sistem</string>
+<string name="Security.Entity">deteksi integritas dompet</string>
+<string name="Security.Virus">deteksi virus seluler</string>
+<string name="Security.NetSafe">pengujian keamanan jaringan</string>
+<string name="Security.PrivateKeySafe">deteksi keamanan kunci pribadi</string>
+<string name="Security.Certification">deteksi sertifikat digital</string>
+<string name="Security.Access">akses deteksi anomali</string>
+<string name="Security.Backup">deteksi cadangan dompet</string>
+<string name="Security.NetProxy">deteksi agen jaringan</string>
+<string name="Security.FakeCoin">deteksi mata uang menjalankan</string>
+<!-- /// -->
+<string name="Security.Safe">aman</string>
+<string name="Security.ScanResults">telah lulus tes keamanan %1$s</string>
+<string name="Security.Danger">ada risiko</string>
+<string name="Security.Danger.Tips">Silakan gunakan dompet Anda dengan hati-hati</string>
+<string name="Security.Virus.Result">virus %1$s terdeteksi</string>
+<string name="Security.Virus.Tip">Harap untuk antivirus pelindung ponsel 360 direkomendasikan ,untuk memastikan keamanan aset digital</string>
+<string name="Security.Root.Alert">Ponsel Anda dalam keadaan tidak normal dengan keamanan sangat rendah! Silakan ganti dompet dengan telepon non-Root</string>
+<string name="Security.NetProxy.Result">Pengaturan proxy jaringan terdeteksi, ada risiko transaksi, disarankan untuk menutup proxy jaringan</string>
+<string name="Security.NetProxy.Tip">1. Pergi ke "Pengaturan Sistem"\n2. Pergi ke "Wireless &amp; Network"\n3. Pergi ke "WLAN"\n4. Pilih Connected Network\n5. Klik atau tekan lama untuk membuka opsi "Modify Network"\n6. Pada tab Advanced, kosongkan agen Pengaturan kolom dan simpan.\n</string>
+<string name="Security.Fix">perbaiki segera</string>
+<string name="Security.FixMethod">metode perbaiki</string>
+<!-- Common -->
+<string name="Common.Quit">hentikan</string>
+<string name="Common.Done">selesai</string>
+<string name="Common.Save">simpan</string>
+<string name="Common.Ignore">lewati</string>
+<!-- Explorer -->
+<string name="Explorer">ditemukan</string>
+<string name="Explorer.App">aplikasi</string>
+<string name="CopyrightText">Copyright © 2018 ACoin123 Group Inc.</string>
+<string name="qrcode_invalid_cointype">jenis mata uang tidak valid</string>
+<string name="signature_valiable">Versi tidak resmi dari APP saat ini, ada risiko, silakan unduh dari saluran resmi</string>
+<string name="detect_launch_ftom_emulator_tip">Jangan gunakan simulator untuk dijalankan</string>
+<string name="Settings.switchCurrency">tukar mata uang</string>
+<!-- Market -->
+<string name="Market.Header.ColumnName">nama</string>
+<string name="Market.Header.ColumnLastPrice">harga terbaru</string>
+<string name="Market.Header.ColumnQuoteChange">24 jam</string>
+<string name="Select_Country_area_Code">pilih negara/daerah</string>
+<!-- 活动 -->
+<string name="Huodong.EOSMap">pemetaan EOS</string>
+<string name="Huodong.EOSMap.Prompt">Setelah rantai utama EOS online, Anda dapat melihat dan menggunakan aset digital EOS Anda langsung melalui ACoin123 tanpa tindakan apa pun!</string>
+<string name="Huodong.EOSMap.EthAddress">alamat dompet ini</string>
+<string name="Huodong.EOSMap.EOSAddress">kunci publik rantai utama EOS</string>
+<string name="Huodong.EOSMap.EOSAddressHint">akan dihasilkan secara otomatis saat memetakan</string>
+<string name="Huodong.EOSMap.EOSContractAddress">alamat kontrak peta</string>
+<string name="Huodong.EOSMap.EOSAddressLabel">sudah petakan kunci publik dompet EOS:</string>
+<string name="Huodong.EOSMap.Aggreement.Name">syarat layanan pemetaan EOS</string>
+<string name="Huodong.EOSMap.Submit">pemetaan sekali klik</string>
+<string name="Huodong.EOSMap.PaySuccess">pemetaan pengolahan</string>
+<string name="Huodong.EOSMap.Checking">deteksi, tolong tunggu...</string>
+<!-- Login -->
+<string name="Login">masuk</string>
+<string name="Login.CountryRegion">negara / wilayah</string>
+<string name="Login.Default.Region.Name">China</string>
+<string name="Login.Phone.Please">Silakan masukkan nomor telepon</string>
+<string name="Login.Captcha.Resend">kirim lagi (%1$ss)</string>
+<!-- 关于 -->
+<string name="User.serviceAggreement">kebijakan layanan</string>
+<string name="User.PrivacyPolicy">kebijakan Privasi</string>
+<string name="User.OfficialWebsite">situs web resmi</string>
+<string name="User.Partner">mitra kerja sama</string>
+<!-- 安全相关 -->
+<string name="Sec.Loading">segang membuat saluran jaringan aman</string>
+<string name="Sec.LoadingSuccess">saluran jaringan aman sudah didirikan</string>
+<!-- 添加币种 -->
+<string name="cancel">pembatalan</string>
+<string name="search_hint">pencarian mata uang</string>
+<string name="search_hint_body"><![CDATA[cari nama mata uang atau alamat kontrak<br />atau diusulkan kami &#160;<font color="#4262D7">ajukan permohonan mata uang</font>  ]]></string>
+<string name="search_not_find"><![CDATA[tidak ditemukan mata uang terkait<br />atau diusulkan kami &#160;<font color="#4262D7">ajukan permohonan mata uang</font>  ]]></string>
+<!-- ################################################### V1.2.0 begin ################################################### -->
+<!-- Account -->
+<string name="Account.LoginPhoneNum">Login nomor ponsel:</string>
+<string name="Account.Reg">registrasi</string>
+<string name="Account.RegTitle">registrasi</string>
+<string name="Account.ResetPassword">menetapkan ulang kode laluan</string>
+<string name="Account.SetPassword">menetapkan kode laluan</string>
+<string name="Account.Upgrade.Desc">Pengguna yang dihormati,apa kabar: \n Mulai hari ini,"Permasukan ACoin123" akan ditingkatkan kepada \'pas jalan ACoin123\',sila memeriksa nomor ponsel anda, menyelesaikan registrasi pas jalan ACoin123</string>
+<string name="Account.SetPass">setel kode laluan</string>
+<string name="Account.SetNewPass">setel kode laluan</string>
+<string name="Account.SetPass.Title">menetapkan kode laluan：</string>
+<string name="Account.SetPass.Hint1">masukkan 8-20 buah karakter</string>
+<string name="Account.SetPass.Hint2">masukkan lagi</string>
+<string name="Account.SetPass.NoSame">kode laluan tidak konsisten</string>
+<string name="Account.SetPass.Tips">Kode laluan yang disarankan terdiri daripada 8-20 huruf, angka, atau simbol khusus.\n Jangan mengungkapkan kode laluan anda kepada orang luar.</string>
+<string name="Account.Sms">sila masukkan kode verifikasi yang diterima oleh nomor %1$s</string>
+<string name="Account.TS.Check">Saya telah membaca dan bersetuju<![CDATA[<font color="#d16162"> klausul privasi ACoin123</font>]]></string>
+<string name="Login.Captcha.Please">masukkan kode verifikasi</string>
+<string name="Login.Captcha.Get">Dapatkan SMS</string>
+<string name="Account.InputPassword">kode laluan</string>
+<string name="Account.ImageCaptcha.Please">kode verifikasi foto</string>
+<string name="Account.hasRegistered">nomor telepon terdaftar</string>
+<string name="Account.notSupportReg">nomor telepon tidak normal</string>
+<string name="Account.LoginPrompt">nomor ini telah diregistrasi,masukkan atau tidak?</string>
+<string name="Account.RegPrompt">nomor ponsel belum diregistrasi,meregistrasi atau tidak?</string>
+<string name="Account.ForgetPwdRegPrompt">nomor telepon tidak terdaftar</string>
+<string name="Account.Register">registrasi</string>
+<string name="Dialog.relogin">masukkan lagi</string>
+<string name="Dialog.yes">ya</string>
+<string name="Dialog.no">tidak</string>
+<string name="UserInfo.information">data pribadi</string>
+<string name="Settings.securityCenter">pusat keselamatan</string>
+<string name="Settings.securityCenter.ACoin123Wallet">tas uang ACoin123</string>
+<string name="Account.ACoin123passport">pas jalan ACoin123</string>
+<string name="Settings.securityCenter.changeTradepwd">mengubah kode laluan transaksi</string>
+<string name="Settings.securityCenter.changepassportpwd">mengubah kode laluan pas jalan</string>
+<string name="UserInfo.avatarStr">foto profil</string>
+<string name="UserInfo.nickName">nama panggilan</string>
+<string name="UserInfo.editName">mengubah</string>
+<string name="UserInfo.editNametip.empty">nama panggilan</string>
+<string name="UserInfo.sex">jantina</string>
+<string name="UserInfo.editSex.male">lelaki</string>
+<string name="UserInfo.editSex.other">lainnya</string>
+<string name="UserInfo.editSex.famale">perempuan</string>
+<string name="UserInfo.phoneNum">nomor ponsel</string>
+<string name="UserInfo.dbid">DBID</string>
+<string name="UserInfo.OK">pasti</string>
+<string name="UserInfo.Cancel">batal</string>
+<string name="UserInfo.Finish">selesai</string>
+<!-- ################################################### V1.2.0 end ################################################### -->
+</resources>

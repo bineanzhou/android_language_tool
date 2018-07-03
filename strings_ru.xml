@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 语言 -->
+<!-- main -->
+<string name="property">активы</string>
+<string name="market"> конъюнктура</string>
+<string name="me">мой кабинет</string>
+<string name="marketTitle">конъюнктура</string>
+<string name="marketNews">новости</string>
+<!-- property -->
+<string name="property_total">общие активы(%1$s)≈</string>
+<string name="Property.Backup">копия</string>
+<string name="Property.Add">добавить активы</string>
+<string name="Property.Add2">+ добавить активы</string>
+<string name="Property.Backup.Tips">просим вас немедленно создать резервную копию мнемонических слов,иначе будет невозможно восстановить кошелек при потере!</string>
+<string name="Property.remainLastOne.Tips">сохраняйте минимум один вид активов</string>
+<!-- create password -->
+<string name="Password.Set">установите платежный пароль</string>
+<string name="Password.Reset">введите ешё раз платежный пароль</string>
+<string name="Password.Wrong">пароль не совпадает. попробуйте ещё раз</string>
+<string name="Validator.passwordTooShort">пароль должен содержать не менее 8 символов</string>
+<string name="Validator.passwordTooSimple">пароль слишком простой</string>
+<string name="Password.Alert">подсказки:\n1. пароль должен содержать не менее 8 символов, идеальна комбинация букв, цифр и спецсимволов.\n2.ACoin123 не сохраняет платежный пароль пользователей и не имеет функцию восстановления пароля, храняйте надлежащим образом.</string>
+<string name="Password.title">введите платежный пароль</string>
+<string name="password_error">неправильный пароль</string>
+<string name="create_wallet">создать кошелек</string>
+<string name="wallet_create_success">удалось создать кошелек</string>
+<string name="wallet_create_success_tips">сильно рекомендуем вам  делать резервную копию кошелька!\nдля возврата кошелька при потере.待定!!!!!!!!</string>
+<string name="Wallet.BackupNow">немедленно создайте  резервную копию</string>
+<string name="Password.Modify">изменить пароль</string>
+<string name="Password.Modify.Tips">подсказки:\n1、пароль должен содержать не менее 8 символов, идеальна комбинация букв, цифр и спецсимволов.\n2、ACoin123 не сохраняет платежный пароль пользователей и не имеет функцию восстановления пароля, храняйте надлежащим образом.</string>
+<string name="Password.Modify.Success">пароль изменён</string>
+<string name="Password.Old">прежний пароль</string>
+<string name="Password.Old.Invalid">прежний пароль введён неправильно</string>
+<string name="Password.New">новый пароль</string>
+<string name="Password.Repeat">повторите новый пароль</string>
+<string name="Password.Forget">забыли пароль?</string>
+<string name="Password.Forget.Title">методы восстановление пароля</string>
+<string name="Password.Forget.Content">1. подтвердите,что вы уже сделали копию мнемонических слов\n2. выгрузка мобильного приложения и повторное установление\n3. импортируйте ваши мнемонические слова  в копии для повторного установления пароля\n\nадрес для скачивания:ACoin123.net</string>
+<!-- mnemonic -->
+<string name="tip">подсказки</string>
+<string name="next">следующая операция</string>
+<string name="got_it">узнал</string>
+<string name="confirm">завершено</string>
+<string name="mnemonic">мнемонические слова</string>
+<string name="backup_wallet">создайте резервную копию кошелька</string>
+<string name="mnemonic_write_down">Записывайте мнемонические слова по очереди на бумаге и сохраняйте  надлежащим образом </string>
+<string name="mnemonic_tips"><![CDATA[мнемонические слова<font color="#d16162">единственный метод для восстановления кошелька</font>,при потере этих слов будет невозможно восстановить все активы данного аккаунта. просим вас обязательно хорошо хранить.ACoin123 не сохраняет мнемонические слова пользователей и не имеет функцию восстановления.]]></string>
+<string name="mnemonic_backup_alert">для обеспечения безопасности ваших активов просим вас не делать снимок экрана и фотографироваться, пожалуйста, обращайте внимание на ситуацию вокруг для предотвращения  другим знания  ваших слов.</string>
+<string name="mnemonic_validate">проверка   мнемонических слов</string>
+<string name="mnemonic_validate_tips">выберите ваши  мнемонические слова по очереди для проверка подлинности мнемонических слов в копии</string>
+<string name="Mnemonic.Backup.Success">удачная резервная копия</string>
+<string name="Mnemonic.Backup.Wrong">неудачная проверка. пожалуйста,проверьте очередь</string>
+<!-- unkown -->
+<string name="loading_failed_click_retry">загрузка неудачная, нажмите ещё раз</string>
+<string name="Http.neterror">сетевая аномалия</string>
+<string name="Upgrade.unsupport">данная версия устарела ,просим скачать обновление!</string>
+<string name="Upgrade.isLatestVer">уже  установлена новейшая версия</string>
+<!-- test -->
+<string name="Dialog.title">title</string>
+<string name="Dialog.content">content</string>
+<string name="Dialog.ok">подтверждать</string>
+<string name="Dialog.cancel">отменить</string>
+<string name="Dialog.positiveText">positiveText</string>
+<string name="Dialog.negativeText">negativeText</string>
+<string name="Config.test">доступ к тесту</string>
+<string name="Dialog.btnPool">[BTN пул для майнинга] обслуживание предлагает фонд BTN, за соответствующие услуги и ответственности отвечает третья сторона.Если будут какие-нибудь вопросы,с сервисной службой свяжитесь.</string>
+<string name="Dialog.btnInsurance">[план о обеспечении цифровых активов] обслуживание предлагает фонд BTN, за соответствующие услуги и ответственности отвечает третья сторона.Если будут какие-нибудь вопросы,с сервисной службой свяжитесь.</string>
+<string name="Dialog.importWallet">поддерживается  импорт мнемонических слов только через ACoin123 . Если будут любые проблемы при импорте из других кошельков, ACoin123 не несет никакой ответственности.</string>
+<!-- pay -->
+<string name="Receive.copyAddress">копировать адрес</string>
+<string name="Receive.copySuccess">удалось копировать</string>
+<string name="Receive.title">%1$sполучение средств</string>
+<string name="Send.title">%1$sперевод</string>
+<string name="Send.address">адрес для получения средств</string>
+<string name="Send.inputAddress">введите адрес получения</string>
+<string name="Send.amount">количество</string>
+<string name="Send.remainAmount">баланс кошелька:%1$s</string>
+<string name="Send.all">полный перевод</string>
+<string name="Send.fee">зарплата шахтеров</string>
+<string name="Send.ok">перевод</string>
+<string name="Send.unknowCoin">формат адреса неправильный</string>
+<string name="Send.success">завершена операция перевода, ждем подтверждения сети</string>
+<string name="Send.publishSuccess">идет обработка сделки</string>
+<!-- Amount to Send: ($1.00) -->
+<string name="Confirmation.amountLabel">отправка суммы:</string>
+<!-- Network Fee: ($1.00) -->
+<string name="Confirmation.feeLabel">зарплата шахтеров:</string>
+<!-- Total Cost: ($5.00) -->
+<string name="Confirmation.totalLabel">общая сумма затраты:</string>
+<string name="Confirmation.title">подробности о переводе</string>
+<string name="Send.invalidAddress">формат адреса неправильный</string>
+<!-- import wallet -->
+<string name="import_wallet">импорт кошелька</string>
+<string name="root_check_warning">в этом телефоне уже установлен рут, очень низкий уровень безопасности! Просим вас использовать телефон без рута</string>
+<string name="import_wallet_subtitle">введите ваши мнемонические слова </string>
+<string name="import_wallet_input_hint">введите ваши мнемонические слова  по очереди</string>
+<string name="import_wallet_action">немедленный импорт</string>
+<string name="import_wallet_failed">неудачный импорт,повторите ешё раз</string>
+<string name="RecoverWallet.invalid">введенные слова неправильные, попробуйте ещё раз</string>
+<string name="AccessibilityLabels.close">узнал</string>
+<string name="use_now">немедленное использование</string>
+<string name="login_protocol">соглашения о использовании</string>
+<string name="Protocol.prefix">Я прочитал и согласен </string>
+<!-- 关于我们 -->
+<string name="User.Title">мой кабинет</string>
+<string name="User.btnPool">пул для майнинга BTN</string>
+<string name="User.btnInsurance">план о обеспечении цифровых активов</string>
+<string name="User.HotActivity">популярные деятельности</string>
+<string name="User.SystemSetting">настройка системы</string>
+<string name="User.JoinChat">поступление в наши группы</string>
+<string name="User.AboutUs">о нас</string>
+<string name="User.AboutContact">контакт с нами</string>
+<string name="User.ContactInfo">info@ACoin123.net</string>
+<string name="User.AboutDescription">ACoin123 ставит себе целью создать мировую передовую децентрализованную площадку для платежного сервиса цифровых активов, где поддерживают межцепочечное хранение различных цифровых активов. Пользователи могут хранить и использовать без труда и надежно. ACoin123 представляет собой кошелек ,барометр конъюнктуры Блокчейна,волшебная коробка с конфетами, интересная интегральная группа DApp и ценный банк цифрового мира. Здесь все стоит!</string>
+<string name="User.version">версия:</string>
+<!-- 加入社群 -->
+<string name="Group.QQ">QQ группа</string>
+<string name="Group.Telegram">Telegram(中文群)</string>
+<string name="Group.TelegramOverSea">Telegram(международный)</string>
+<string name="Group.Wechat">группа Вичат</string>
+<string name="Group.Copied">удачное копирование</string>
+<!-- 交易记录 -->
+<string name="TransactionRecord.Success">завершена сделка</string>
+<string name="TransactionRecord.Confirming">идет подтверждение</string>
+<string name="TransactionRecord.Receipt">получение</string>
+<string name="TransactionRecord.Transfer">перевод</string>
+<string name="TransactionDetail.sendAddress">адрес для перевода:</string>
+<string name="TransactionDetail.receiveAddress">адрес для получения средств:</string>
+<string name="TransactionDetail.txTime">дата сделки:</string>
+<string name="TransactionDetail.Note">примечание:</string>
+<string name="TransactionDetail.txHash">порядковый номер сделки:</string>
+<string name="TransactionDetail.ReceiveText"> подробности о получении средств</string>
+<string name="TransactionDetail.transferText"> подробности о переводе</string>
+<string name="TransactionRecord.MultiAddresstext">с разных адерсов</string>
+<string name="TransactionDetail.MultiAddressTip">с разных адерсов,нажмите "порядковый номер сделки" для узнания подробности</string>
+<string name="no_more_data">пока больше нет</string>
+<string name="empty_data">пока нет истории сделки</string>
+<string name="Import.importSuccess">удалось импорт кошелька</string>
+<string name="TransactionDetail.NoteDefault">нет примечания</string>
+<string name="TransactionDetail.copyHint">удачное копирование</string>
+<string name="Home.rootTip">в телефоне уже был рут, существуют риски в активах, просим своевременно менять мобильник</string>
+<string name="network_connection_error">нет сети</string>
+<string name="TransactionDetail.mineAddress">(мой адрес)</string>
+<!-- security -->
+<string name="Security.Scanning">идет сканирование</string>
+<string name="Security.PowerBy">360 предлагает техническую поддержку безопасности</string>
+<!-- /// -->
+<string name="Security.Root">проверка безопасности системы</string>
+<string name="Security.Entity">проверка целостности кошелька</string>
+<string name="Security.Virus">проверка вирусов в мобильнике</string>
+<string name="Security.NetSafe">проверка безопасности интернета</string>
+<string name="Security.PrivateKeySafe">проверка безопасности приватного ключа</string>
+<string name="Security.Certification">проверка цифрового сертификата</string>
+<string name="Security.Access">проверка аномального доступа</string>
+<string name="Security.Backup">проверка резервной копии кошелька</string>
+<string name="Security.NetProxy">проверка наличии прокси-сервера</string>
+<string name="Security.FakeCoin">проверка ненадежной криптовалюты</string>
+<!-- /// -->
+<string name="Security.Safe">безопасный</string>
+<string name="Security.ScanResults">уже прошли%1$sтестов безопасности</string>
+<string name="Security.Danger">существуют риски</string>
+<string name="Security.Danger.Tips">используете кошелек с осторожностью</string>
+<string name="Security.Virus.Result">обнаружены%1$sвирусов</string>
+<string name="Security.Virus.Tip">реконмендуем антивирусную защиту безопасности циврофых активов с помощью 360 Mobile Security</string>
+<string name="Security.Root.Alert">ваш телефон в аномальном состоянии с очень низким уровнем безопасности!Просим вас использовать кошелька в новом телефоне.</string>
+<string name="Security.NetProxy.Result">найдено наличие настройки Прокси-сервера, существуют риски для сделки,реконмендуем отключить прокси-сервер</string>
+<string name="Security.NetProxy.Tip">1.нажмите "настройка систему" \n2.нажмите "wifi и интернет"\n3. нажмите "WLAN"\n4. выберите подключенную сеть\n5. кликните или долго нажмите "изменить интернет" \n6.  ликвидируете настройки  прокси-сервера в разделе дополнительных параметров и потом сохраняйте.\n</string>
+<string name="Security.Fix">немедленное восстановление</string>
+<string name="Security.FixMethod">методы восстановления</string>
+<!-- Common -->
+<string name="Common.Quit">выход</string>
+<string name="Common.Done">завершено</string>
+<string name="Common.Save">сохранение</string>
+<string name="Common.Ignore">пропустить</string>
+<!-- Explorer -->
+<string name="Explorer">обрнаружение</string>
+<string name="Explorer.App">применение</string>
+<string name="CopyrightText">Copyright © 2018 ACoin123 Group Inc.</string>
+<string name="qrcode_invalid_cointype">недействительный вид валюты</string>
+<string name="signature_valiable">данное мобильное приложение не официальное и с риском,пожалуйста,скачайте официальную версию .</string>
+<string name="detect_launch_ftom_emulator_tip">запрещен запуск  на симуляторах</string>
+<string name="Settings.switchCurrency">валюта</string>
+<!-- Market -->
+<string name="Market.Header.ColumnName">наименование</string>
+<string name="Market.Header.ColumnLastPrice">последняя цена</string>
+<string name="Market.Header.ColumnQuoteChange">24 часа</string>
+<string name="Select_Country_area_Code">выберите страну/регион</string>
+<!-- 活动 -->
+<string name="Huodong.EOSMap">перемещение в основную сеть  EOS</string>
+<string name="Huodong.EOSMap.Prompt">После запуска основной сети EOS вы можете сразу проверить и использовать ваши EOS цифровые активы  через  ACoin123 без никаких лишних операций!</string>
+<string name="Huodong.EOSMap.EthAddress">адрес этого кошелька</string>
+<string name="Huodong.EOSMap.EOSAddress">публичный ключ основной сети EOS</string>
+<string name="Huodong.EOSMap.EOSAddressHint">автоматическое создание при перемещении в основную сеть</string>
+<string name="Huodong.EOSMap.EOSContractAddress">адрес контракта для перемещения в основную сеть</string>
+<string name="Huodong.EOSMap.EOSAddressLabel">публичный ключ кошелька с закончившим перемещением в основную сеть EOS:</string>
+<string name="Huodong.EOSMap.Aggreement.Name">соглашение об обслуживании перемещения в основную сеть  EOS</string>
+<string name="Huodong.EOSMap.Submit">перемещение в основную сеть  одной кнопкой</string>
+<string name="Huodong.EOSMap.PaySuccess">обработка перемещения в основную сеть</string>
+<string name="Huodong.EOSMap.Checking">идет проверка,пожалуйста,подождите...</string>
+<!-- Login -->
+<string name="Login">логин</string>
+<string name="Login.CountryRegion">Страна/Регион</string>
+<string name="Login.Default.Region.Name">Китай</string>
+<string name="Login.Phone.Please">введите номер телефона</string>
+<string name="Login.Captcha.Resend">повторное посылание (%1$ss)</string>
+<!-- 关于 -->
+<string name="User.serviceAggreement">соглашение об обслуживании </string>
+<string name="User.PrivacyPolicy">соглашение о персональных данных</string>
+<string name="User.OfficialWebsite">официальный сайт</string>
+<string name="User.Partner">партнеры</string>
+<!-- 安全相关 -->
+<string name="Sec.Loading">идет создание безопасного сетевого канала</string>
+<string name="Sec.LoadingSuccess">создан безопасный сетевой канал</string>
+<!-- 添加币种 -->
+<string name="cancel">отмена</string>
+<string name="search_hint">поиск валюты или адреса контракта</string>
+<string name="search_hint_body"><![CDATA[поиск наименований валют  или адреса контракта<br />или задавайте нам запрос &#160;<font color="#4262D7">заявка  на добавление валюты</font>  ]]></string>
+<string name="search_not_find"><![CDATA[не найдена соответствующая валюта<br />или задавайте нам запрос &#160;<font color="#4262D7">заявка  на добавление валюты</font>  ]]></string>
+<!-- ################################################### V1.2.0 begin ################################################### -->
+<!-- Account -->
+<string name="Account.LoginPhoneNum">номер телефона:</string>
+<string name="Account.Reg">зарегистрировать</string>
+<string name="Account.RegTitle">зарегистрировать</string>
+<string name="Account.ResetPassword">повторно установить пароль</string>
+<string name="Account.SetPassword">установить пароль счета ACoin123</string>
+<string name="Account.Upgrade.Desc">уважаемый пользователь,здравствуйте: \n “регистрация ACoin123” превращается в "счет ACoin123".проверите ваш номер телефона и зарегистрируете счет ACoin123.</string>
+<string name="Account.SetPass">Установить пароль</string>
+<string name="Account.SetNewPass">Установить пароль</string>
+<string name="Account.SetPass.Title">установить пароль счета ACoin123：</string>
+<string name="Account.SetPass.Hint1">введите  8-20 символов</string>
+<string name="Account.SetPass.Hint2">введите повторно</string>
+<string name="Account.SetPass.NoSame">пароль не совпадает</string>
+<string name="Account.SetPass.Tips">пароль должен содержать 8-20  букв, цифр или спецсимволов.Пожалуйста,Никому не сообщайте свой пароль </string>
+<string name="Account.Sms">введите СМС код  из номера %1$s</string>
+<string name="Account.TS.Check">прочитал и согласился<![CDATA[<font color="#d16162"> "соглашение о персональных данных" </font>]]></string>
+<string name="Login.Captcha.Please">введите СМС код </string>
+<string name="Login.Captcha.Get">получить СМС</string>
+<string name="Account.InputPassword">введите пароль</string>
+<string name="Account.ImageCaptcha.Please">введите текст с картинки</string>
+<string name="Account.hasRegistered">Номер телефона зарегистрирован</string>
+<string name="Account.notSupportReg">Номер телефона ненормален</string>
+<string name="Account.LoginPrompt">номер зарегистрирован,прямо на регистрацию?</string>
+<string name="Account.RegPrompt">номер  телефона не зарегистрирован,сейчас зарегистрируете?</string>
+<string name="Account.ForgetPwdRegPrompt">Номер телефона не зарегистрирован</string>
+<string name="Account.Register">зарегистрировать</string>
+<string name="Dialog.relogin">повторная регистрация</string>
+<string name="Dialog.yes">да</string>
+<string name="Dialog.no">нет</string>
+<string name="UserInfo.information">Личные данные</string>
+<string name="Settings.securityCenter">центр безопасности</string>
+<string name="Settings.securityCenter.ACoin123Wallet">ACoin123 кошелек</string>
+<string name="Account.ACoin123passport">счет ACoin123</string>
+<string name="Settings.securityCenter.changeTradepwd">изменение платежного пароля кошелька</string>
+<string name="Settings.securityCenter.changepassportpwd">изменение  пароля счета ACoin123</string>
+<string name="UserInfo.avatarStr">фото</string>
+<string name="UserInfo.nickName">сетевое имя</string>
+<string name="UserInfo.editName">изменить</string>
+<string name="UserInfo.editNametip.empty">кличка</string>
+<string name="UserInfo.sex">пол</string>
+<string name="UserInfo.editSex.male">муж</string>
+<string name="UserInfo.editSex.other">другое</string>
+<string name="UserInfo.editSex.famale">жен</string>
+<string name="UserInfo.phoneNum">номер телефона</string>
+<string name="UserInfo.dbid">DBID</string>
+<string name="UserInfo.OK">подтвердить</string>
+<string name="UserInfo.Cancel">отменить</string>
+<string name="UserInfo.Finish">завершено</string>
+<!-- ################################################### V1.2.0 end ################################################### -->
+</resources>

@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 语言 -->
+<!-- main -->
+<string name="property">자산</string>
+<string name="market">시세</string>
+<string name="me">내 것</string>
+<string name="marketTitle">시세</string>
+<string name="marketNews">속보</string>
+<!-- property -->
+<string name="property_total">총자산（%1$s）≈</string>
+<string name="Property.Backup">백업</string>
+<string name="Property.Add">자산 추가</string>
+<string name="Property.Add2">+ 자산 추가</string>
+<string name="Property.Backup.Tips">복구단어를 최대한 빨리 백업하여 주세요. 그렇지 않을 시 지갑 분실의 경우 복구가 불가합니다!</string>
+<string name="Property.remainLastOne.Tips">최소 한가지 자산을 보류하세요</string>
+<!-- create password -->
+<string name="Password.Set">거래 비밀번호 설정</string>
+<string name="Password.Reset">거래 비밀번호 재입력</string>
+<string name="Password.Wrong">비밀번호가 일치하지 않습니다. 다시 입력해주세요</string>
+<string name="Validator.passwordTooShort">8자리 이상의 비밀번호를 사용해주세요</string>
+<string name="Validator.passwordTooSimple">비밀번호가 너무 간단합니다</string>
+<string name="Password.Alert"> 안내:\n1. 비밀번호는 영문,숫자,특수문자를 혼합하여 적어도 8자리이상이여야 한다.\n2. ACoin123 은(는) 사용자 거래 비밀번호를 저장하지 않으며 복구 기능을 제공하지 않으니 안전하게 보관해주세요</string>
+<string name="Password.title">거래 비밀번호를 입력해주세요.</string>
+<string name="password_error">잘못된 비밀번호입니다</string>
+<string name="create_wallet">지갑 생성</string>
+<string name="wallet_create_success">지갑 생성이 완료</string>
+<string name="wallet_create_success_tips">지갑을 꼭 백업해주세요! 그래야만 지갑 분실 시 복구가 가능합니다.待定！！！！！！！！</string>
+<string name="Wallet.BackupNow">백업</string>
+<string name="Password.Modify">비밀번호 수정</string>
+<string name="Password.Modify.Tips">안내:\n1. 비밀번호는 영문,숫자,특수문자를 혼합하여 적어도 8자리이상이여야 한다.\n2. ACoin123 은(는) 사용자 거래 비밀번호를 저장하지 않으며 복구 기능을 제공하지 않으니 안전하게 보관해주세요</string>
+<string name="Password.Modify.Success">비밀번호 변경 성공</string>
+<string name="Password.Old">원 비밀번호</string>
+<string name="Password.Old.Invalid">원 비밀번호가 아닙니다.</string>
+<string name="Password.New">새 비밀번호</string>
+<string name="Password.Repeat">새 비밀번호 반복</string>
+<string name="Password.Forget">비밀번호를 잊으셨습니까?</string>
+<string name="Password.Forget.Title">비밀번호 복구 방법</string>
+<string name="Password.Forget.Content">1. 니모닉 백업을 확인하십시오.\n2. APP을 제거하고 다시 설치하십시오.\n3. 백업된 니모닉으로 비밀번호를 다시 설정하십시오.\n\n다운로드 주소：ACoin123.net</string>
+<!-- mnemonic -->
+<string name="tip">안내</string>
+<string name="next">다음 단계</string>
+<string name="got_it">알겠습니다.</string>
+<string name="confirm">완료</string>
+<string name="mnemonic">복구단어</string>
+<string name="backup_wallet">지갑 백업하기</string>
+<string name="mnemonic_write_down">복구단어를 순서대로 종이에 적어서 안전한 장소에 보관하십시오</string>
+<string name="mnemonic_tips"><![CDATA[복구단어는 지갑을 복원할 수 있는 유일한 방법이며, 분실 시 복구가 불가능하므로 안전하게 보관하십시오. ACoin123 은(는) 사용자의 복구단어를 저장하지 않으며 복구 기능을 제공하지 않습니다.]]></string>
+<string name="mnemonic_backup_alert">고객님의 자산의 안전을 위해 복구단어를 캡쳐하거나 사진을 찍지 마세요. 동시에 다른 사람들이 복구단어를 훔치보지 못하도록 주변을 확인하세요.</string>
+<string name="mnemonic_validate">복구단어 확인</string>
+<string name="mnemonic_validate_tips">복구단어가 정확히 백업되었는지 확인하기 위해 고객님의 복구단어를 순서대로 나열하여 주세요</string>
+<string name="Mnemonic.Backup.Success">백업 완성</string>
+<string name="Mnemonic.Backup.Wrong">인증에 실패했습니다. 순서를  확인해주세요</string>
+<!-- unkown -->
+<string name="loading_failed_click_retry">로드 실패했습니다, 클릭하여 재시도하세요</string>
+<string name="Http.neterror">네트워크 이상</string>
+<string name="Upgrade.unsupport">현재 버전은 지원 불가능하므로 최신 버전으로 업그레이드하세요.</string>
+<string name="Upgrade.isLatestVer">최신 버전</string>
+<!-- test -->
+<string name="Dialog.title">title</string>
+<string name="Dialog.content">content</string>
+<string name="Dialog.ok">확인</string>
+<string name="Dialog.cancel">취소</string>
+<string name="Dialog.positiveText">positiveText</string>
+<string name="Dialog.negativeText">negativeText</string>
+<string name="Config.test">测试入口</string>
+<string name="Dialog.btnPool">[BTN 채굴 풀] 본 서비스는 BTN 펀드에서 제공하며 관련 서비스와 책임은 모두 제 3자가 책입집니다. 문제가 발생하면 관련 서비스 측 고객상담실에 문의하십시오.</string>
+<string name="Dialog.btnInsurance">[디지털 자산 보장 계획] 서비스는 BTN 펀드에서 제공하며 관련 서비스와 책임은 모두 제 3자가 책입집니다. 문제가 발생하면 관련 서비스 측 고객상담실에 문의하십시오.</string>
+<string name="Dialog.importWallet">ACoin123의 니모닉 가져오기에만 지원됩니다. 다른 지갑 니모닉 가져오기를 사용해서 발생되는 문제에 대해 ACoin123는 어떠한 책임도 지지 않습니다.</string>
+<!-- pay -->
+<string name="Receive.copyAddress">암호화폐 입금주소 복사</string>
+<string name="Receive.copySuccess">주소가 복사되었습니다</string>
+<string name="Receive.title">%1$s암호화폐 입금</string>
+<string name="Send.title">%1$s암호화폐 송금</string>
+<string name="Send.address">암호화폐 입금주소</string>
+<string name="Send.inputAddress">수금 주소를 입력하거나 QR코드를 스캔하십시오</string>
+<string name="Send.amount">수량</string>
+<string name="Send.remainAmount">지갑 잔액:%1$s</string>
+<string name="Send.all">전부 송금</string>
+<string name="Send.fee">송금 비용</string>
+<string name="Send.ok">암호화폐 송금</string>
+<string name="Send.unknowCoin">주소 양식이 잘못되었습니다</string>
+<string name="Send.success">송금 완료, 네트워크 확인 대기 중</string>
+<string name="Send.publishSuccess">거래 처리</string>
+<!-- Amount to Send: ($1.00) -->
+<string name="Confirmation.amountLabel">송금액：</string>
+<!-- Network Fee: ($1.00) -->
+<string name="Confirmation.feeLabel">송금비용：</string>
+<!-- Total Cost: ($5.00) -->
+<string name="Confirmation.totalLabel">총 비용：</string>
+<string name="Confirmation.title">송금 세부 정보</string>
+<string name="Send.invalidAddress">주소 양식이 잘못되었습니다</string>
+<!-- import wallet -->
+<string name="import_wallet">지갑 가져 오기</string>
+<string name="root_check_warning">Rooting 된 휴대폰입니다. 보안 상태가 낮으므로 Rooting되지 않은 폰으로 서비스를 사용해주세요.</string>
+<string name="import_wallet_subtitle">복구단어를 입력해주세요</string>
+<string name="import_wallet_input_hint">복구단어를 순서대로 입력해주세요.</string>
+<string name="import_wallet_action">지금 가져 오기</string>
+<string name="import_wallet_failed">가져오기 실패,재시도해주세요</string>
+<string name="RecoverWallet.invalid">잘못된 복구단어입니다. 다시 입력하십시오</string>
+<string name="AccessibilityLabels.close">알겠습니다.</string>
+<string name="use_now">지금 사용</string>
+<string name="login_protocol">ACoin123 사용자 서비스 계약서</string>
+<string name="Protocol.prefix">숙지하였으며 이에 동의합니다</string>
+<!-- 关于我们 -->
+<string name="User.Title">내 것</string>
+<string name="User.btnPool">BTN 채굴 풀</string>
+<string name="User.btnInsurance">디지털 자산 보장 계획</string>
+<string name="User.HotActivity">핫 이벤트</string>
+<string name="User.SystemSetting">시스템 설정</string>
+<string name="User.JoinChat">커뮤니티 가입</string>
+<string name="User.AboutUs">회사 소개</string>
+<string name="User.AboutContact">Contact</string>
+<string name="User.ContactInfo">info@ACoin123.net</string>
+<string name="User.AboutDescription"> ACoin123는 세계에서 가장 선진화된 탈중앙화 디지털자산 지불 서비스 플랫폼을 건설하기 위해 만들어졌습니다. 다양한 종류의 디지털자산을 지원하며, 사용자는 편하고 안전하게 보유중인 자산을 예치 및 사용할 수 있습니다. ACoin123는 지갑이며, 블록체인 시세를 보여주는 기상캐스터 역할을 하고, 에어드랍을 받을 수 있으며, 재미있는 Dapp들이 모여있고, 디지털 세계의 가치를 담는 은행입니다. ACoin123의 모든 즐거움을 누리세요</string>
+<string name="User.version">버전：</string>
+<!-- 加入社群 -->
+<string name="Group.QQ">QQ 그룹</string>
+<string name="Group.Telegram">Telegram(中文群)</string>
+<string name="Group.TelegramOverSea">Telegram(국제)</string>
+<string name="Group.Wechat">WeChat</string>
+<string name="Group.Copied">복사 완료</string>
+<!-- 交易记录 -->
+<string name="TransactionRecord.Success">거래 성공</string>
+<string name="TransactionRecord.Confirming">확인 중</string>
+<string name="TransactionRecord.Receipt">입금</string>
+<string name="TransactionRecord.Transfer">송금</string>
+<string name="TransactionDetail.sendAddress">송금주소：</string>
+<string name="TransactionDetail.receiveAddress">입금주소：</string>
+<string name="TransactionDetail.txTime">거래 시간：</string>
+<string name="TransactionDetail.Note">비고：</string>
+<string name="TransactionDetail.txHash">Tx ID ：</string>
+<string name="TransactionDetail.ReceiveText">입금상세내역</string>
+<string name="TransactionDetail.transferText">송금상세내역</string>
+<string name="TransactionRecord.MultiAddresstext">여러 주소에서 발송</string>
+<string name="TransactionDetail.MultiAddressTip">여러 주소에서 발송, TXID를 클릭하여 세부 정보 확인</string>
+<string name="no_more_data">다른 내용 없음</string>
+<string name="empty_data">아직 거래 내역이 없음</string>
+<string name="Import.importSuccess">지갑 가져오기 성공</string>
+<string name="TransactionDetail.NoteDefault">메모 없음</string>
+<string name="TransactionDetail.copyHint">복사 성공</string>
+<string name="Home.rootTip">휴대폰이 Rooting되어 자산이 위험하니 즉시 휴대폰을 교체하기 바랍니다.</string>
+<string name="network_connection_error">현재 네트워크에 연결되어있지 않습니다</string>
+<string name="TransactionDetail.mineAddress">(내 주소)</string>
+<!-- security -->
+<string name="Security.Scanning">보안 스캐닝 중</string>
+<string name="Security.PowerBy">360에서 제공하는 보안기술</string>
+<!-- /// -->
+<string name="Security.Root">시스템 보안 확인 중 </string>
+<string name="Security.Entity">지갑 무결성 확인 중</string>
+<string name="Security.Virus">휴대폰 바이러스 검사</string>
+<string name="Security.NetSafe">네트워크 보안 확인 중</string>
+<string name="Security.PrivateKeySafe">개인 키 보안 검사</string>
+<string name="Security.Certification">디지털 인증서 검사</string>
+<string name="Security.Access">접속 이상 확인 중</string>
+<string name="Security.Backup">지갑 백업 확인 중</string>
+<string name="Security.NetProxy">네트워크 프록시 확인 중</string>
+<string name="Security.FakeCoin">Scam Coin 확인 중</string>
+<!-- /// -->
+<string name="Security.Safe">안전</string>
+<string name="Security.ScanResults"> %1$s가지 보안 모니터링을 통과했습니다</string>
+<string name="Security.Danger">위험 발견</string>
+<string name="Security.Danger.Tips">신중히 지갑을 이용해주세요</string>
+<string name="Security.Virus.Result">바이러스 %1$s개 발견</string>
+<string name="Security.Virus.Tip">디지털 자산 안전을 보장하기 위해 휴대폰 보안 프로그램으로 보안 정보를 확인해주세요.</string>
+<string name="Security.Root.Alert">휴대폰 상태 이상, 보안 상태 낮음. Rooting되지 않은 휴대폰으로 지갑을 사용해주세요.</string>
+<string name="Security.NetProxy.Result">네트워크 프록시 설정 감지. 위험요소가 존재하므로, 네트워크 프록시를 해제해주세요.</string>
+<string name="Security.NetProxy.Tip">1. 시스템 설정으로 이동\n2.무선 및 네트워크로 이동\n3. WLAN으로 이동\n4. 연결된 네트워크 선택\n5. 클릭 또는 길게 눌러 "네트워크 수정" 옵션 열기\n6. 고급 탭 프록시 란 설정 제거 후 저장\n</string>
+<string name="Security.Fix">바로 복구</string>
+<string name="Security.FixMethod">복구 방식</string>
+<!-- Common -->
+<string name="Common.Quit">종료</string>
+<string name="Common.Done">완료</string>
+<string name="Common.Save">저장</string>
+<string name="Common.Ignore">건너 뛰기</string>
+<!-- Explorer -->
+<string name="Explorer">발견</string>
+<string name="Explorer.App">Application</string>
+<string name="CopyrightText">Copyright © 2018 ACoin123 Group Inc.</string>
+<string name="qrcode_invalid_cointype">무효 통화</string>
+<string name="signature_valiable">현재 사용하시는 APP은 정식 버전이 아니므로 안전하지 않으니 공식 채널에서 다운로드 해주세요.</string>
+<string name="detect_launch_ftom_emulator_tip">시뮬레이션 기기를 사용하지 마십시오.</string>
+<string name="Settings.switchCurrency">자산 종류 전환</string>
+<!-- Market -->
+<string name="Market.Header.ColumnName">종류</string>
+<string name="Market.Header.ColumnLastPrice">최근거래가</string>
+<string name="Market.Header.ColumnQuoteChange">등락폭</string>
+<string name="Select_Country_area_Code">국가/지역</string>
+<!-- 活动 -->
+<string name="Huodong.EOSMap">EOS 매핑</string>
+<string name="Huodong.EOSMap.Prompt">EOS 메인 체인이 온라인 상태가 되면 아무런 조치없이 ACoin123를 통해 고객님의 EOS 디지털 자산을 조회 또는 사용 가능합니다!</string>
+<string name="Huodong.EOSMap.EthAddress">지갑 주소</string>
+<string name="Huodong.EOSMap.EOSAddress">EOS 메인 체인 공동 키</string>
+<string name="Huodong.EOSMap.EOSAddressHint">건너 뛰기</string>
+<string name="Huodong.EOSMap.EOSContractAddress">매핑 계약 주소</string>
+<string name="Huodong.EOSMap.EOSAddressLabel">EOS 지갑 공동 키 매핑 완료：</string>
+<string name="Huodong.EOSMap.Aggreement.Name">EOS 매핑 서비스 약관</string>
+<string name="Huodong.EOSMap.Submit">원터치 매핑</string>
+<string name="Huodong.EOSMap.PaySuccess">매핑 처리</string>
+<string name="Huodong.EOSMap.Checking">테스트 중, 잠시만 기다려주십시오 ...</string>
+<!-- Login -->
+<string name="Login">로그인</string>
+<string name="Login.CountryRegion">국가/지역</string>
+<string name="Login.Default.Region.Name">China</string>
+<string name="Login.Phone.Please">휴대폰 번호 입력</string>
+<string name="Login.Captcha.Resend">재전송 (%1$ss)</string>
+<!-- 关于 -->
+<string name="User.serviceAggreement">서비스 약관</string>
+<string name="User.PrivacyPolicy">개인 정보 보호</string>
+<string name="User.OfficialWebsite">공식 웹사이트</string>
+<string name="User.Partner">협력 파트너</string>
+<!-- 安全相关 -->
+<string name="Sec.Loading">보안 네트워크 채널 구축 중.</string>
+<string name="Sec.LoadingSuccess">보안 네트워크 채널 구축 완료</string>
+<!-- 添加币种 -->
+<string name="cancel">취소</string>
+<string name="search_hint">통화 명칭 또는 계약 주소 검색</string>
+<string name="search_hint_body"><![CDATA[통화 명칭 또는 계약 주소 검색<br />우리에게 제출하십시오<font color="#4262D7">통화 출시 신청</font>  ]]></string>
+<string name="search_not_find"><![CDATA[관련 통화가 없습니다.<br />우리에게 제출하십시오<font color="#4262D7">통화 출시 신청</font>  ]]></string>
+<!-- ################################################### V1.2.0 begin ################################################### -->
+<!-- Account -->
+<string name="Account.LoginPhoneNum">핸드폰 번호:</string>
+<string name="Account.Reg">등록</string>
+<string name="Account.RegTitle">ACoin123통행증 등록</string>
+<string name="Account.ResetPassword">비번 리셋</string>
+<string name="Account.SetPassword">ACoin123통행증 비번 설정</string>
+<string name="Account.Upgrade.Desc">존경하는 고객님께:\n 안녕하십니까 Dabnk로그인\'기능이 \'ACoin123통행증\'으로 업그레이드되었으며 당신의 핸드폰 번호를 확인하시고 ACoin123통행증 등록 완료해 주시기 바랍니다</string>
+<string name="Account.SetPass">암호 설정</string>
+<string name="Account.SetNewPass">암호 설정</string>
+<string name="Account.SetPass.Title">ACoin123통행증 비번 설정：</string>
+<string name="Account.SetPass.Hint1">8-20자리의 문자를 입력하십시오</string>
+<string name="Account.SetPass.Hint2">다시 입력하십시오</string>
+<string name="Account.SetPass.NoSame">비번 일치하지 않음</string>
+<string name="Account.SetPass.Tips">비번은 8-20자리의 문자, 숫자 또는 특수 기호로 구성하시면 합니다. \n통행증 비번을 잘 기억하시고 숫자 재산의 안전을 위해 타인에게 비번을 알려주시 마시기 바랍니다 </string>
+<string name="Account.Sms"> %1$s에서 접수된 인증번호를 입력하십시오 </string>
+<string name="Account.TS.Check">내용을 다 읽고 동의합니다 <![CDATA[<font color="#d16162">《ACoin123파라이버시 조항》</font>]]></string>
+<string name="Login.Captcha.Please">인증번호 입력</string>
+<string name="Login.Captcha.Get">SMS 받기</string>
+<string name="Account.InputPassword">비밀번호 입력</string>
+<string name="Account.ImageCaptcha.Please">사진 인증번호</string>
+<string name="Account.hasRegistered">전화 번호가 등록되었습니다</string>
+<string name="Account.notSupportReg">전화 번호가 비정상입니다</string>
+<string name="Account.LoginPrompt">번호는 이미 등록되었으니 로그인하시겠습니까?</string>
+<string name="Account.RegPrompt">핸드폰 번호 등록하지 않았습니다.신규 등록하시겠습니까?</string>
+<string name="Account.ForgetPwdRegPrompt">전화 번호가 등록되지 않았습니다</string>
+<string name="Account.Register">등록</string>
+<string name="Dialog.relogin">다시 등록</string>
+<string name="Dialog.yes">예</string>
+<string name="Dialog.no">아닙니다 </string>
+<string name="UserInfo.information">개인 데이터</string>
+<string name="Settings.securityCenter">안전 센터</string>
+<string name="Settings.securityCenter.ACoin123Wallet">ACoin123지갑</string>
+<string name="Account.ACoin123passport">ACoin123통행증</string>
+<string name="Settings.securityCenter.changeTradepwd">지갑 거래 비번 수정</string>
+<string name="Settings.securityCenter.changepassportpwd">ACoin123통행증 비번 수정</string>
+<string name="UserInfo.avatarStr">프로필사진</string>
+<string name="UserInfo.nickName">닉네임</string>
+<string name="UserInfo.editName">닉네임 수정</string>
+<string name="UserInfo.editNametip.empty">별명</string>
+<string name="UserInfo.sex">성별</string>
+<string name="UserInfo.editSex.male">남</string>
+<string name="UserInfo.editSex.other">기타</string>
+<string name="UserInfo.editSex.famale">여</string>
+<string name="UserInfo.phoneNum">핸드폰 번호</string>
+<string name="UserInfo.dbid">DBID</string>
+<string name="UserInfo.OK">확인</string>
+<string name="UserInfo.Cancel">취소</string>
+<string name="UserInfo.Finish">완료</string>
+<!-- ################################################### V1.2.0 end ################################################### -->
+</resources>

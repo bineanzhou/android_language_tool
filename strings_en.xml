@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 语言 -->
+<!-- main -->
+<string name="property">Assets</string>
+<string name="market">Markets</string>
+<string name="me">Me</string>
+<string name="marketTitle">Markets</string>
+<string name="marketNews">News</string>
+<!-- property -->
+<string name="property_total">Total Assets（%1$s）≈</string>
+<string name="Property.Backup">Back up</string>
+<string name="Property.Add">Add Assets</string>
+<string name="Property.Add2">+ Add Assets</string>
+<string name="Property.Backup.Tips">Back up the mnemonic words. It\'s the only way to recover your wallet!</string>
+<string name="Property.remainLastOne.Tips">Keep at least one asset</string>
+<!-- create password -->
+<string name="Password.Set">Set a transaction password</string>
+<string name="Password.Reset">Enter the transaction password again</string>
+<string name="Password.Wrong">The two passwords do not match.Please re-set it.</string>
+<string name="Validator.passwordTooShort">The password cannot be less than 8 characters</string>
+<string name="Validator.passwordTooSimple">The password is too simple</string>
+<string name="Password.Alert">Tips:\n1. At least 8 characters,better to mix letters, digits, symbols.\n2. ACoin123 does not store user\'s transaction passwords and the regain function is not available here. Please save them properly.</string>
+<string name="Password.title">Enter the transaction password</string>
+<string name="password_error">Incorrect password</string>
+<string name="create_wallet">Create Wallet</string>
+<string name="wallet_create_success">Wallet created successfully</string>
+<string name="wallet_create_success_tips">We strongly recommend that you should back up your wallet! \nSo that you can get it back when your wallet is lost.</string>
+<string name="Wallet.BackupNow">Back up</string>
+<string name="Password.Modify">Change password</string>
+<string name="Password.Modify.Tips">Tips:\n1. At least 8 characters,better to mix letters, digits, symbols.\n2. ACoin123 does not store user\'s transaction passwords and the regain function is not available here. Please save them properly.</string>
+<string name="Password.Modify.Success">Changed</string>
+<string name="Password.Old">Original password</string>
+<string name="Password.Old.Invalid">Original password is wrong</string>
+<string name="Password.New">New password</string>
+<string name="Password.Repeat">Repeat new password</string>
+<string name="Password.Forget">Forget password?</string>
+<string name="Password.Forget.Title">The method of recovering password</string>
+<string name="Password.Forget.Content">1. Please confirm that you have backed up mnemonic words\n2. Unload APP and reinstall again\n3. Import back-up mnemonic words to reset password\n\n Download：ACoin123.net</string>
+<!-- mnemonic -->
+<string name="tip">Tips</string>
+<string name="next">Next</string>
+<string name="got_it">Got It</string>
+<string name="confirm">Done</string>
+<string name="mnemonic">Mnemonic words</string>
+<string name="backup_wallet">Back up</string>
+<string name="mnemonic_write_down">Please copy the mnemonic words in sequence on paper and save it in a safe place.</string>
+<string name="mnemonic_tips"><![CDATA[The mnemonic words are  <font color="#d16162">the only way to recover your wallet</font>. If you lose them, all the assets of the account cannot be retrieved . Please keep them properly. ACoin123 does not save mnemonic words and cannot offer a regain function.]]></string>
+<string name="mnemonic_backup_alert">For the safety of your assets, please do not take screenshots or videos ,and check around to prevent others from stealing your mnemonic words.</string>
+<string name="mnemonic_validate">Verify mnemonic words</string>
+<string name="mnemonic_validate_tips">Please select your mnemonic words in sequence to verify that your backup mnemonic words are correct.</string>
+<string name="Mnemonic.Backup.Success">Back up successfully</string>
+<string name="Mnemonic.Backup.Wrong">Failed. Please check the sequence.</string>
+<!-- unkown -->
+<string name="loading_failed_click_retry">Fail to load. Click and retry.</string>
+<string name="Http.neterror">Network anomaly</string>
+<string name="Upgrade.unsupport">The current version does not support. Please upgrade it to the latest version!</string>
+<string name="Upgrade.isLatestVer">It is the latest version</string>
+<!-- test -->
+<string name="Dialog.title">title</string>
+<string name="Dialog.content">content</string>
+<string name="Dialog.ok">Confirm</string>
+<string name="Dialog.cancel">Cancel</string>
+<string name="Dialog.positiveText">positiveText</string>
+<string name="Dialog.negativeText">negativeText</string>
+<string name="Config.test">Test</string>
+<string name="Dialog.btnPool">[The BTN Mine Pool] service is provided by the BTN Foundation, and related services and responsibilities are borne by the third party. If you have any questions, please contact its customer service.</string>
+<string name="Dialog.btnInsurance">The [Exchange Account Insurance Plan] service is provided by the BTN Foundation, and related services and responsibilities are borne by the third party. If you have any questions, please contact its customer service.</string>
+<string name="Dialog.importWallet">Support for the import of ACoin123 mnemonic words only. If there are any problems with importing other wallet mnemonic words, ACoin123 will not assume any responsibility.</string>
+<!-- pay -->
+<string name="Receive.copyAddress">Copy the address</string>
+<string name="Receive.copySuccess">Copied</string>
+<string name="Receive.title">%1$sReceive</string>
+<string name="Send.title">%1$sSend</string>
+<string name="Send.address">To</string>
+<string name="Send.inputAddress">Enter receiving address</string>
+<string name="Send.amount">Amount</string>
+<string name="Send.remainAmount">Balance:%1$s</string>
+<string name="Send.all">Send All</string>
+<string name="Send.fee">Fee</string>
+<string name="Send.ok">Send</string>
+<string name="Send.unknowCoin">Incorrect address format</string>
+<string name="Send.success">Succeed , waiting for network confirmation</string>
+<string name="Send.publishSuccess">Transaction processing</string>
+<!-- Amount to Send: ($1.00) -->
+<string name="Confirmation.amountLabel">Amount:</string>
+<!-- Network Fee: ($1.00) -->
+<string name="Confirmation.feeLabel">Fee:</string>
+<!-- Total Cost: ($5.00) -->
+<string name="Confirmation.totalLabel">Total:</string>
+<string name="Confirmation.title">Transaction Details</string>
+<string name="Send.invalidAddress">Incorrect address format</string>
+<!-- import wallet -->
+<string name="import_wallet">Import Wallet</string>
+<string name="root_check_warning">The current mobile phone has been rooted, and the security is extremely low! Please replace a non-Root phone.</string>
+<string name="import_wallet_subtitle">Please enter your mnemonic words</string>
+<string name="import_wallet_input_hint">Please enter your mnemonic words in sequence</string>
+<string name="import_wallet_action">Import</string>
+<string name="import_wallet_failed">Failed. Try again</string>
+<string name="RecoverWallet.invalid">Incorrect mnemonic words, please re-enter</string>
+<string name="AccessibilityLabels.close">Got It</string>
+<string name="use_now">Get Started</string>
+<string name="login_protocol">ACoin123 User Service Agreement</string>
+<string name="Protocol.prefix">I have read and agree to</string>
+<!-- 关于我们 -->
+<string name="User.Title">Me</string>
+<string name="User.btnPool">BTN Pool</string>
+<string name="User.btnInsurance">Exchange Account Insurance Plan</string>
+<string name="User.HotActivity">Popular Activities</string>
+<string name="User.SystemSetting">Settings</string>
+<string name="User.JoinChat">Join Group</string>
+<string name="User.AboutUs">About</string>
+<string name="User.AboutContact">Contact Us</string>
+<string name="User.ContactInfo">info@ACoin123.net</string>
+<string name="User.AboutDescription">ACoin123 aims to build a world-leading decentralized digital asset payment service platform that supports cross-chain storage of multiple digital assets. ACoin123 is simple and safe to use. ACoin123 is a wallet, a blockchain market barometer, a surprise candy box, an interesting DApp integrated tribe, and a valuable bank in a digital world. Here, everything worth!</string>
+<string name="User.version">Version:</string>
+<!-- 加入社群 -->
+<string name="Group.QQ">QQ Group</string>
+<string name="Group.Telegram">Telegram(中文群)</string>
+<string name="Group.TelegramOverSea">Telegram(International)</string>
+<string name="Group.Wechat">Wechat</string>
+<string name="Group.Copied">Copied</string>
+<!-- 交易记录 -->
+<string name="TransactionRecord.Success">Confirmed</string>
+<string name="TransactionRecord.Confirming">Confirming</string>
+<string name="TransactionRecord.Receipt">Receive</string>
+<string name="TransactionRecord.Transfer">Send</string>
+<string name="TransactionDetail.sendAddress">From:</string>
+<string name="TransactionDetail.receiveAddress">To:</string>
+<string name="TransactionDetail.txTime">Transaction time:</string>
+<string name="TransactionDetail.Note">Memo:</string>
+<string name="TransactionDetail.txHash">Tx ID:</string>
+<string name="TransactionDetail.ReceiveText">Transaction Details</string>
+<string name="TransactionDetail.transferText">Transaction Details</string>
+<string name="TransactionRecord.MultiAddresstext">From multiple addresses</string>
+<string name="TransactionDetail.MultiAddressTip">From multiple addresses, click Tx ID to view</string>
+<string name="no_more_data">No more</string>
+<string name="empty_data">No transaction records</string>
+<string name="Import.importSuccess">Imported successfully.</string>
+<string name="TransactionDetail.NoteDefault">No memo</string>
+<string name="TransactionDetail.copyHint">Copied</string>
+<string name="Home.rootTip">The phone has been rooted and the assets are at risk. Please change the phone promptly.</string>
+<string name="network_connection_error">No network</string>
+<string name="TransactionDetail.mineAddress">(My address)</string>
+<!-- security -->
+<string name="Security.Scanning">Safe scanning...</string>
+<string name="Security.PowerBy">Technical security support is provided by 360 Inc.</string>
+<!-- /// -->
+<string name="Security.Root">System security check</string>
+<string name="Security.Entity">Wallet integrity check</string>
+<string name="Security.Virus">Mobile virus check</string>
+<string name="Security.NetSafe">Network security check</string>
+<string name="Security.PrivateKeySafe">Private key security check</string>
+<string name="Security.Certification">Digital certificate check</string>
+<string name="Security.Access">Access exceptions check</string>
+<string name="Security.Backup">Wallet backup check</string>
+<string name="Security.NetProxy">Network proxy check</string>
+<string name="Security.FakeCoin">Fraud coin check</string>
+<!-- /// -->
+<string name="Security.Safe">Safe</string>
+<string name="Security.ScanResults"> %1$s safety checks have been passed</string>
+<string name="Security.Danger">Risks found</string>
+<string name="Security.Danger.Tips">Use your wallet with caution</string>
+<string name="Security.Virus.Result">%1$s virus found</string>
+<string name="Security.Virus.Tip">Antivirus software is recommended to ensure the safety of digital assets.</string>
+<string name="Security.Root.Alert">Your phone is in an abnormal state with low security! Please replace with non-Root phone to use your wallet.</string>
+<string name="Security.NetProxy.Result">Network proxy settings have been found, and there is a risk of the transaction. Closing the network proxy is recommended.</string>
+<string name="Security.NetProxy.Tip">1. Enter \'System Settings\'\n2. Enter \'Wireless and Network\'\n3. Enter \'WLAN\'\n4. Choose connected network\n5. Click or long press to open \'Modify network\'\n6. Click \'Show advanced options\' and clear \'Proxy\',then save\n</string>
+<string name="Security.Fix">Repair</string>
+<string name="Security.FixMethod">Repair Method</string>
+<!-- Common -->
+<string name="Common.Quit">Exit</string>
+<string name="Common.Done">Done</string>
+<string name="Common.Save">Save</string>
+<string name="Common.Ignore">Skip</string>
+<!-- Explorer -->
+<string name="Explorer">Discover</string>
+<string name="Explorer.App">Application</string>
+<string name="CopyrightText">Copyright © 2018 ACoin123 Group Inc.</string>
+<string name="qrcode_invalid_cointype">Invalid currency type</string>
+<string name="signature_valiable">The current APP is not an official version and there are risks. Please download it from the official channel.</string>
+<string name="detect_launch_ftom_emulator_tip">Do not use the simulator</string>
+<string name="Settings.switchCurrency">Currency</string>
+<!-- Market -->
+<string name="Market.Header.ColumnName">Name</string>
+<string name="Market.Header.ColumnLastPrice">Price</string>
+<string name="Market.Header.ColumnQuoteChange">Change</string>
+<string name="Select_Country_area_Code">Country/Region</string>
+<!-- 活动 -->
+<string name="Huodong.EOSMap">EOS Mapping</string>
+<string name="Huodong.EOSMap.Prompt">After EOS parent chain is online, you can check and use your EOS digital asset through ACoin123 straightaway without further operations.</string>
+<string name="Huodong.EOSMap.EthAddress">My Address</string>
+<string name="Huodong.EOSMap.EOSAddress">EOS public key</string>
+<string name="Huodong.EOSMap.EOSAddressHint">Auto-generate during mapping</string>
+<string name="Huodong.EOSMap.EOSContractAddress">Contract address</string>
+<string name="Huodong.EOSMap.EOSAddressLabel">EOS public key mapped：</string>
+<string name="Huodong.EOSMap.Aggreement.Name">Service terms and conditions</string>
+<string name="Huodong.EOSMap.Submit">Easy Mapping</string>
+<string name="Huodong.EOSMap.PaySuccess">Mapping</string>
+<string name="Huodong.EOSMap.Checking">Checking, please wait for a moment...</string>
+<!-- Login -->
+<string name="Login">Login</string>
+<string name="Login.CountryRegion">Country/Region</string>
+<string name="Login.Default.Region.Name">China</string>
+<string name="Login.Phone.Please">Enter phone number</string>
+<string name="Login.Captcha.Resend">Resend (%1$ss)</string>
+<!-- 关于 -->
+<string name="User.serviceAggreement">Service Agreement</string>
+<string name="User.PrivacyPolicy">Privacy Policy</string>
+<string name="User.OfficialWebsite">Official Website</string>
+<string name="User.Partner">Partners</string>
+<!-- 安全相关 -->
+<string name="Sec.Loading">Secure network channel is being established</string>
+<string name="Sec.LoadingSuccess">Secure network channel is established</string>
+<!-- 添加币种 -->
+<string name="cancel">Cancel</string>
+<string name="search_hint">Search coin names or contract address</string>
+<string name="search_hint_body"><![CDATA[Search coin names or contract address<br />Apply to us <font color="#4262D7">Application of Listing</font>  ]]></string>
+<string name="search_not_find"><![CDATA[It is not found<br />Apply to us <font color="#4262D7">Application of Listing</font>  ]]></string>
+<!-- ################################################### V1.2.0 begin ################################################### -->
+<!-- Account -->
+<string name="Account.LoginPhoneNum">Phone number for login:</string>
+<string name="Account.Reg">Register</string>
+<string name="Account.RegTitle">Register ACoin123 Permit</string>
+<string name="Account.ResetPassword">Reset password</string>
+<string name="Account.SetPassword">Set ACoin123 permit password</string>
+<string name="Account.Upgrade.Desc">Dear user:\n　　 "ACoin123 log-in" has been upgraded to ACoin123 Permit. Please check your mobile phone number and complete subsequent ACoin123 permit procedures. </string>
+<string name="Account.SetPass">Set Password</string>
+<string name="Account.SetNewPass">Set New Password</string>
+<string name="Account.SetPass.Title">Set ACoin123 permit password</string>
+<string name="Account.SetPass.Hint1">Please input 8-20 characters</string>
+<string name="Account.SetPass.Hint2">Input again</string>
+<string name="Account.SetPass.NoSame">Inconsistent password</string>
+<string name="Account.SetPass.Tips">It is suggested that the password is composed of 8-20 letters, digits or special symbols.\n Don\'t reveal it to others. </string>
+<string name="Account.Sms">Please input the verification code sent to %1$s</string>
+<string name="Account.TS.Check">I have read and agree with <![CDATA[<font color="#d16162">《ACoin123 Privacy Policies》</font>]]></string>
+<string name="Login.Captcha.Please">SMS verification code</string>
+<string name="Login.Captcha.Get">Send SMS verification code</string>
+<string name="Account.InputPassword">Password</string>
+<string name="Account.ImageCaptcha.Please">Picture verification code</string>
+<string name="Account.hasRegistered">Phone number is registered</string>
+<string name="Account.notSupportReg">The phone number is abnormal</string>
+<string name="Account.LoginPrompt">The number has been registered. login now?</string>
+<string name="Account.RegPrompt">The number has not been registered. Register it now? </string>
+<string name="Account.ForgetPwdRegPrompt">The phone number is not registered</string>
+<string name="Account.Register">Register</string>
+<string name="Dialog.relogin">log in again</string>
+<string name="Dialog.yes">Yes</string>
+<string name="Dialog.no">No</string>
+<string name="UserInfo.information">Profile</string>
+<string name="Settings.securityCenter">Security Center</string>
+<string name="Settings.securityCenter.ACoin123Wallet">ACoin123 wallet</string>
+<string name="Account.ACoin123passport">ACoin123 permit</string>
+<string name="Settings.securityCenter.changeTradepwd">Modify transaction password</string>
+<string name="Settings.securityCenter.changepassportpwd">Modify permit password</string>
+<string name="UserInfo.avatarStr">Icon</string>
+<string name="UserInfo.nickName">Nickname</string>
+<string name="UserInfo.editName">Modify nickname</string>
+<string name="UserInfo.editNametip.empty">Nickname</string>
+<string name="UserInfo.sex">Gender</string>
+<string name="UserInfo.editSex.male">Male</string>
+<string name="UserInfo.editSex.other">Other</string>
+<string name="UserInfo.editSex.famale">Female</string>
+<string name="UserInfo.phoneNum">Phone number</string>
+<string name="UserInfo.dbid">DBID</string>
+<string name="UserInfo.OK">Confirm</string>
+<string name="UserInfo.Cancel">Cancel</string>
+<string name="UserInfo.Finish">Completed</string>
+<!-- ################################################### V1.2.0 end ################################################### -->
+</resources>
